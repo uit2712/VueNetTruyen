@@ -1,59 +1,43 @@
 <template>
     <div class="top-menu">
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
-                    <li
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <TopMenuItem
                         v-for="(item, index) in menu"
+                        v-on:click.native="selectMenuItem(index)"
                         :key="index"
-                        :class="['nav-item', item.active ? 'active' : '', isMenuItemContainSubMenu(item.subMenu) ? 'dropdown': '']"
-                        v-on:click="selectMenuItem(index)"
-                    >
-                        <a
-                            href="#"
-                            :class="['nav-link', isMenuItemContainSubMenu(item) ? 'dropdown-toggle': '']"
-                            :id="'navbarDropdown-' + index"
-                            :role="isMenuItemContainSubMenu(item) ? 'button' : null"
-                            :data-toggle="isMenuItemContainSubMenu(item) ? 'dropdown' : null"
-                            :aria-haspopup="isMenuItemContainSubMenu(item) ? true : null"
-                            :aria-expanded="isMenuItemContainSubMenu(item) ? false : null"
-                        >
-                            <i v-if="item.icon" :class="['fa', `fa-${item.icon}`]"></i>
-                            {{ item.title | upperCase }}
-                        </a>
-                        <div
-                            v-if="isMenuItemContainSubMenu(item)"
-                            class="dropdown-menu"
-                            :aria-labelledby="'navbarDropdown-' + index"
-                        >
-                            <a
-                                v-for="(subItem, subIndex) in item.subMenu"
-                                :key="subIndex"
-                                class="dropdown-item"
-                            >
-                                {{ subItem.title }}
-                            </a>
-                        </div>
-                    </li>
-                </div>
+                        :item="item"
+                    />
+                </ul>
             </div>
         </nav>
     </div>
 </template>
 <script lang="ts">
 import Vue from 'vue';
-import _ from 'lodash'
+import _ from 'lodash';
+import TopMenuItem from './TopMenuItem.vue';
 
 export default Vue.extend({
     name: 'top-menu',
+    components: {
+        TopMenuItem,
+    },
     data: function () {
         return {
             menu: [
                 { icon: 'home', active: true },
-                { title: 'Hot' },
-                { title: 'Theo dõi' },
-                { title: 'Lịch sử' },
-                {                    title: 'Thể loại', subMenu: [
+                { title: 'Hot', active: false },
+                { title: 'Theo dõi', active: false },
+                { title: 'Lịch sử', active: false },
+                {   
+                    title: 'Thể loại',
+                    active: false,
+                    subMenu: [
                         { title: 'Tất cả', highlight: true },
                         { title: 'Action' },
                         { title: 'Adult' },
@@ -106,8 +90,12 @@ export default Vue.extend({
                         { title: 'Truyện màu' },
                         { title: 'Webtoon' },
                         { title: 'Xuyên Không', highlight: true },
-                    ]                },
-                {                    title: 'Xếp hạng', subMenu: [
+                    ]
+                },
+                {                    
+                    title: 'Xếp hạng',
+                    active: false,
+                    subMenu: [
                         { title: 'Top all', icon: '' },
                         { title: 'Top tháng', icon: '' },
                         { title: 'Top tuần', icon: '' },
@@ -116,19 +104,14 @@ export default Vue.extend({
                         { title: 'Yêu thích', icon: '' },
                         { title: 'Mới cập nhật', icon: '' },
                         { title: 'Truyện mới', icon: '' },
-                    ]                },
-                { title: 'Tìm truyện' },
-                { title: 'Con gái' },
-                { title: 'Con trai' },
-                { title: 'Group' },
-                { title: 'Góp ý' },
+                    ]                
+                },
+                { title: 'Tìm truyện', active: false },
+                { title: 'Con gái', active: false },
+                { title: 'Con trai', active: false },
+                { title: 'Group', active: false },
+                { title: 'Góp ý', active: false },
             ],
-            selectedMenuItem: null,
-        }
-    },
-    mounted: function () {
-        if (this.menu.length > 0) {
-            this.selectedMenuItem = this.menu[0];
         }
     },
     methods: {
@@ -137,11 +120,11 @@ export default Vue.extend({
                 if (i === index) {
                     item.active = true;
                 } else {
-                    if (item.active)
+                    if (item.active) {
                         item.active = false;
+                    }
                 }
-            })
-            this.$forceUpdate();
+            });
         },
         isMenuItemContainSubMenu: function(item) {
             return !_.isNil(item) && !_.isNil(item.subMenu) && item.subMenu.length > 0;
