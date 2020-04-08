@@ -4,8 +4,10 @@
             <img src="../assets/logo-nettruyen.png"/>
         </div>
         <div class="input-group search-container">
-            <input v-model="searchValue" class="form-control" placeholder="Tìm kiếm...">
-            <div class="input-group-btn col-5">
+            <div class="input-group-btn">
+                <input v-model="searchValue" class="form-control" placeholder="Tìm kiếm...">
+            </div>
+            <div class="input-group-btn">
                 <button class="btn btn-default" type="submit">
                     <i class="glyphicon glyphicon-search"></i>
                 </button>
@@ -41,14 +43,30 @@ export default Vue.extend({
     width: 100%;
     display: flex;
     height: 50px;
+    background-color: black;
 }
 
 .search-container {
     flex-basis: 40%;
+    height: 100%;
 }
 
 .user-container {
     vertical-align: middle;
     height: 100%;
+}
+
+.user-container, .user-container a {
+    color: white;
+}
+
+.logo, .user-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-group-btn {
+    width: unset!important;
 }
 </style>
