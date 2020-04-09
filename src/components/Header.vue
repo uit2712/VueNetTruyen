@@ -1,19 +1,23 @@
 <template>
-    <div class="header">
-        <div class="logo center-block">
-            <img src="../assets/logo-nettruyen.png"/>
+    <div class="header d-table">
+        <div class="logo d-table-cell align-middle">
+            <img class="float-right" src="../assets/logo-nettruyen.png"/>
         </div>
-        <div class="input-group search-container">
-            <div class="input-group-btn">
-                <input v-model="searchValue" class="form-control" placeholder="Tìm kiếm...">
-            </div>
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit">
-                    <i class="glyphicon glyphicon-search"></i>
-                </button>
+        <div class="search-container input-group mx-auto">
+            <input
+                v-model="searchValue"
+                class="form-control"
+                type="text"
+                placeholder="Search"
+                aria-label="Search"
+            />
+            <div class="input-group-append">
+                <span class="input-group-text">
+                    <i class="fa fa-search text-grey" aria-hidden="true"></i>
+                </span>
             </div>
         </div>
-        <div class="user-container center-block">
+        <div class="user-container d-table-cell align-middle">
             <span>
             <a href="javascript;;">Đăng nhập</a>
             /<a href="javascript;;">Đăng ký</a>
@@ -46,11 +50,6 @@ export default Vue.extend({
     background-color: black;
 }
 
-.search-container {
-    flex-basis: 40%;
-    height: 100%;
-}
-
 .user-container {
     vertical-align: middle;
     height: 100%;
@@ -61,12 +60,15 @@ export default Vue.extend({
 }
 
 .logo, .user-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    width: 33%;
 }
 
-.input-group-btn {
-    width: unset!important;
+.search-container {
+    width: 70%;
+    height: 100%;
+}
+
+input.form-control, span.input-group-text {
+    height: 40px!important;
 }
 </style>
