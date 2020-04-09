@@ -7,8 +7,8 @@
             class="nav-link"
             href="#"
         >
-            {{ item.title }}
             <i v-if="item.icon" :class="['fa', `fa-${item.icon}`]"></i>
+            {{ item.title }}
         </a>
         <a
             v-if="isMenuItemContainSubMenu(item)"
@@ -45,6 +45,11 @@
                                 href="#"
                                 :class="[subItem.highlight ? 'highlight' : '']"
                             >
+                                <i
+                                    v-if="!isNullOrEmpty(subItem.icon)"
+                                    :class="['fa', `fa-${subItem.icon}`]"
+                                >
+                                </i>
                                 {{ subItem.title }}
                             </a>
                         </li>
@@ -86,7 +91,10 @@ export default Vue.extend({
             let moreInfoEl = document.getElementById('more-info');
             if (!_.isNil(moreInfoEl))
                 moreInfoEl.innerHTML = '';
-        }
+        },
+        isNullOrEmpty: function(text) {
+            return _.isNil(text) || text.trim() === '';
+        },
     },
     created: function() {
         if (!_.isNil(this.item.subMenu)
@@ -114,6 +122,7 @@ export default Vue.extend({
 #more-info {
     margin-left: 15px;
     margin-right: 15px;
+    box-decoration-break: clone;
 }
 
 .dropdown-menu {
