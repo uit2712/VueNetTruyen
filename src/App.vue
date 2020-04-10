@@ -2,7 +2,7 @@
     <div id="app">
         <top-header></top-header>
         <top-menu></top-menu>
-        <div class="mx-auto col-xs-9 col-lg-9 col-md-9 col-sm-12 col-xs-12 col-12">
+        <div class="mx-auto col-xs-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 col-12">
             <recommend-comic></recommend-comic>
             <div class="row col-12">
                 <updated-comics></updated-comics>
