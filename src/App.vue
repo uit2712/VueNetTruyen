@@ -1,32 +1,40 @@
 <template>
     <div id="app">
-        <Header />
-        <TopMenu />
-        <div class="main-content mx-auto">
-            <RecommendComic/>
-            <UpdatedComics/>
+        <top-header></top-header>
+        <top-menu></top-menu>
+        <div class="mx-auto col-xs-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 col-12">
+            <recommend-comic></recommend-comic>
+            <div class="row col-12">
+                <updated-comics></updated-comics>
+                <right-side-bar></right-side-bar>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import TopHeader from "./components/TopHeader.vue";
 import TopMenu from "./components/TopMenu.vue";
 import RecommendComic from "./components/RecommendComic.vue";
 import UpdatedComics from "./components/UpdatedComics.vue";
 import Vue from 'vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import { BootstrapVue, IconsPlugin, TabsPlugin } from 'bootstrap-vue'
+import RightSideBar from './components/RightSideBar.vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+Vue.use(TabsPlugin);
 
 export default {
     name: "App",
     components: {
-        Header,
+        TopHeader,
         TopMenu,
         RecommendComic,
         UpdatedComics,
+        RightSideBar,
     }
 };
 </script>

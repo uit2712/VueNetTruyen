@@ -6,12 +6,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <TopMenuItem
+                    <top-menu-item
                         v-for="(item, index) in menu"
                         v-on:click.native="selectMenuItem(index)"
                         :key="index"
                         :item="item"
-                    />
+                    ></top-menu-item>
                 </ul>
             </div>
         </nav>

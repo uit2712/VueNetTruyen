@@ -1,5 +1,5 @@
 <template>
-    <div class="updated-comics">
+    <div class="updated-comics col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
         <p class="title">TRUYỆN MỚI CẬP NHẬT</p>
         <div class="row mx-auto">
             <div
@@ -21,7 +21,7 @@
                     <span class="bottom-left">{{ comic.comic_name }}</span>
                     <div class="overlay">
                         <div class="comic-description">
-                            {{ comic.content | short(200) }}<br/>
+                            {{ comic.content | short(400) }}<br/>
                             <a href="#">Xem thêm...</a>
                         </div>
                     </div>
@@ -58,12 +58,9 @@ export default Vue.extend({
     name: 'updated-comics',
     data: function() {
         return {
-            perPage: 12,
+            perPage: 18,
             currentPage: 1,
         };
-    },
-    created: function() {
-        console.log(this.getRecent3Chapters(1));
     },
     methods: {
         getRecent3Chapters: function(id) {
@@ -148,11 +145,11 @@ export default Vue.extend({
 .comic-info, .comic-info div {
     margin-right: 10px;
     overflow-wrap: break-word;
-    width: 170px;
+    width: 255px;
 }
 
 .comic-img {
-    height: 240px;
+    height: 360px;
     width: inherit;
     display: block;
 }
@@ -178,9 +175,9 @@ export default Vue.extend({
     width: inherit;
 }
 
-.updated-comics {
+/* .updated-comics {
     max-width: 740px;
-}
+} */
 
 .bottom-left {
     position: absolute;
