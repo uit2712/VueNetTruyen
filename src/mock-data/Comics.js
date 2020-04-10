@@ -26,21 +26,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/5",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/3/30",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/3/29",
+                total_views: 12345
             }
         ]
     },
@@ -70,21 +70,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 2,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -112,21 +112,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 2,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -157,21 +157,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 2,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -201,21 +201,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -243,21 +243,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -288,21 +288,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -332,21 +332,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -374,21 +374,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -419,21 +419,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -463,21 +463,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -505,21 +505,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -550,21 +550,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -594,21 +594,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -636,21 +636,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -681,21 +681,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -725,21 +725,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -767,21 +767,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -812,21 +812,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -856,21 +856,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -898,21 +898,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -943,21 +943,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -987,21 +987,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1029,21 +1029,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1074,21 +1074,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1118,21 +1118,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1160,21 +1160,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1205,21 +1205,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1249,21 +1249,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1291,21 +1291,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1336,21 +1336,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1380,21 +1380,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
@@ -1422,21 +1422,21 @@ const data = [
         chapters: [
             {
                 id: 1,
-                "chapter_name": "Chapter 1",
-                "upload_date": "2020/4/1",
-                "total_views": 123
+                chapter_name: "Chapter 1",
+                upload_date: "2020/4/1",
+                total_views: 123
             },
             {
                 id: 3,
-                "chapter_name": "Chapter 3",
-                "upload_date": "2020/4/1",
-                "total_views": 1234
+                chapter_name: "Chapter 3",
+                upload_date: "2020/4/1",
+                total_views: 1234
             },
             {
                 id: 1,
-                "chapter_name": "Chapter 4",
-                "upload_date": "2020/4/1",
-                "total_views": 12345
+                chapter_name: "Chapter 4",
+                upload_date: "2020/4/1",
+                total_views: 12345
             }
         ]
     },
