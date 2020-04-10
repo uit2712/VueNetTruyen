@@ -4,6 +4,7 @@
         <TopMenu />
         <div class="main-content mx-auto">
             <RecommendComic/>
+            <UpdatedComics/>
         </div>
     </div>
 </template>
@@ -12,6 +13,12 @@
 import Header from "./components/Header.vue";
 import TopMenu from "./components/TopMenu.vue";
 import RecommendComic from "./components/RecommendComic.vue";
+import UpdatedComics from "./components/UpdatedComics.vue";
+import Vue from 'vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+Vue.use(BootstrapVue);
+Vue.use(IconsPlugin);
 
 export default {
     name: "App",
@@ -19,6 +26,7 @@ export default {
         Header,
         TopMenu,
         RecommendComic,
+        UpdatedComics,
     }
 };
 </script>
