@@ -4,7 +4,10 @@
         <TopMenu />
         <div class="main-content mx-auto">
             <RecommendComic/>
-            <UpdatedComics/>
+            <div class="row">
+                <UpdatedComics/>
+                <RightSideBar/>
+            </div>
         </div>
     </div>
 </template>
@@ -16,6 +19,7 @@ import RecommendComic from "./components/RecommendComic.vue";
 import UpdatedComics from "./components/UpdatedComics.vue";
 import Vue from 'vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import RightSideBar from './components/RightSideBar.vue'
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
@@ -27,12 +31,13 @@ export default {
         TopMenu,
         RecommendComic,
         UpdatedComics,
+        RightSideBar,
     }
 };
 </script>
 
 <style scoped>
 .main-content {
-    width: 75%;
+    width: 80%;
 }
 </style>
