@@ -28,9 +28,4 @@ module.exports = {
         ]
     },
     // ... plugin omitted
-    configureWebpack: {
-        externals: {
-            vue: 'Vue'
-        }
-    }
 }
