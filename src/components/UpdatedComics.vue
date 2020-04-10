@@ -21,7 +21,7 @@
                     <span class="bottom-left">{{ comic.comic_name }}</span>
                     <div class="overlay">
                         <div class="comic-description">
-                            {{ comic.content | short(200) }}<br/>
+                            {{ comic.content | short(400) }}<br/>
                             <a href="#">Xem thêm...</a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default Vue.extend({
     name: 'updated-comics',
     data: function() {
         return {
-            perPage: 20,
+            perPage: 18,
             currentPage: 1,
         };
     },
@@ -145,11 +145,11 @@ export default Vue.extend({
 .comic-info, .comic-info div {
     margin-right: 10px;
     overflow-wrap: break-word;
-    width: 170px;
+    width: 255px;
 }
 
 .comic-img {
-    height: 240px;
+    height: 360px;
     width: inherit;
     display: block;
 }
