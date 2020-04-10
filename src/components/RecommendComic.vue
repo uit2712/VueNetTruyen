@@ -1,10 +1,12 @@
 <template>
-    <div class="recommend-comic">
+    <div class="recommend-comic mx-auto">
         <p class="title">TRUYỆN ĐỀ CỬ</p>
         <vueper-slides
             fixed-height="500px"
             3d
             :bullets="false"
+            autoplay
+            class="mx-auto"
         >
             <vueper-slide
                 v-for="(slide, i) in slides"
@@ -13,10 +15,16 @@
             >
                 <template v-slot:content>
                     <div class="comic-description fixed-bottom">
-                        <h3>{{ slide.comicName }}</h3>
+                        <h4>{{ slide.comicName }}</h4>
                         <div class="row justify-content-between">
-                            <h4 class="float-left">{{ slide.chapter }}</h4>
-                            <h4 class="float-right">{{ slide.uploadTime | timeDescription }}</h4>
+                            <p class="float-left">
+                                <i class="fa fa-book"></i>
+                                <strong>{{ slide.chapter }}</strong>
+                            </p>
+                            <p class="float-right">
+                                <i class="fa fa-clock-o"></i>
+                                <strong>{{ slide.uploadTime | timeDescription }}</strong>
+                            </p>
                         </div>
                     </div>
                 </template>
@@ -91,7 +99,12 @@ export default Vue.extend({
 </script>
 <style scoped>
 .title {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+i {
+    margin-right: 5px;
 }
 
 .vueperslides {
@@ -105,5 +118,14 @@ export default Vue.extend({
     float: inline-end;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.comic-description div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.recommend-comic {
+    width: 500px;
 }
 </style>

@@ -2,7 +2,7 @@
     <div id="app">
         <Header />
         <TopMenu />
-        <div class="main-content row d-flex justify-content-center">
+        <div class="main-content mx-auto">
             <RecommendComic/>
         </div>
     </div>
