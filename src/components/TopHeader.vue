@@ -1,5 +1,5 @@
 <template>
-    <div class="header d-table">
+    <div class="top-header d-table">
         <div class="logo d-table-cell align-middle">
             <img class="float-right" src="../assets/logo-nettruyen.png"/>
         </div>
@@ -29,7 +29,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'top-header',
+    name: 'top-header-1111',
     data: function() {
         return {
             searchValue: '',
@@ -43,7 +43,7 @@ export default Vue.extend({
 })
 </script>
 <style scoped>
-.header {
+.top-header {
     width: 100%;
     display: flex;
     height: 50px;
