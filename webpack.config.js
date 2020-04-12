@@ -1,7 +1,7 @@
 module.exports = {
     resolve: {
         // Add `.ts` as a resolvable extension.
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.js'],
     },
     module: {
         rules: [
